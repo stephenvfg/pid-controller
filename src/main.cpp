@@ -4,6 +4,7 @@
 #include <string>
 #include "json.hpp"
 #include "PID.h"
+#include "Twiddle.h"
 
 // for convenience
 using nlohmann::json;
@@ -34,17 +35,21 @@ int main() {
   uWS::Hub h;
 
   PID pid;
+  Twiddle twiddle;
 
   // set the initial PID coefficients
-  double Kp_ = 2.0;
-  double Ki_ = 0.0;
-  double Kd_ = 1.0;
+  double Kp_ = 0.3;
+  double Ki_ = 0.0004;
+  double Kd_ = 2.6;
 
   // initialize the PID controller
   pid.Init(Kp_, Ki_, Kd_);
 
-  h.onMessage([&pid](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, 
-                     uWS::OpCode opCode) {
+  // initialize the Twiddle
+  twiddle.Init(0.2, Kp_, Ki_, Kd_);
+
+  h.onMessage([&pid, &twiddle](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, 
+                               uWS::OpCode opCode) {
     // "42" at the start of the message means there's a websocket message event.
     // The 4 signifies a websocket message
     // The 2 signifies a websocket event
@@ -64,7 +69,29 @@ int main() {
 
           // update the PID error values and then use those to determine the steering value
           pid.UpdateError(cte);
-          double steer_value = pid.TotalError();
+          double error = pid.TotalError();
+          double sq_error = error*error;
+
+          // as long as twiddle isn't optimized, run through twiddle
+          if (!twiddle.Finished()) {
+            // move the car
+            // if twiddle reaches the end of a cycle, it will run through an optimization step
+            twiddle.Run(sq_error);
+
+            // if twiddle has gone through an optimization step and it's time to reset, do so now
+            if (twiddle.TimeToReset()) {
+              // update the PID controller's parameters
+              vector<double> p = twiddle.Parameters();
+              pid.UpdateCoefficients(p[0], p[1], p[2]);
+
+              // reset the vehicle
+              string reset_msg = "42[\"reset\",{}]";
+              ws.send(reset_msg.data(), reset_msg.length(), uWS::OpCode::TEXT);
+            }
+          }
+
+          // use the PID error to determine the steering value
+          double steer_value = error;
           /**
            * TODO: Calculate steering value here, remember the steering value is
            *   [-1, 1].
@@ -73,14 +100,13 @@ int main() {
            */
           
           // DEBUG
-          std::cout << "CTE: " << cte << " Steering Value: " << steer_value 
-                    << std::endl;
+          //std::cout << "CTE: " << cte << " Steering Value: " << steer_value << std::endl;
 
           json msgJson;
           msgJson["steering_angle"] = steer_value;
           msgJson["throttle"] = 0.3;
           auto msg = "42[\"steer\"," + msgJson.dump() + "]";
-          std::cout << msg << std::endl;
+          //std::cout << msg << std::endl;
           ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
         }  // end "telemetry" if
       } else {
