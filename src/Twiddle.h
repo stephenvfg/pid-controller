@@ -83,6 +83,9 @@ class Twiddle {
 
   // stores whether or not its time to reset the vehicle
   bool time_to_reset;
+
+  // stores when Twiddle is done calibrating
+  bool finished;
 };
 
 #endif  // TWIDDLE_H

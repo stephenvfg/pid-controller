@@ -38,15 +38,15 @@ int main() {
   Twiddle twiddle;
 
   // set the initial PID coefficients
-  double Kp_ = 0.3;
-  double Ki_ = 0.0004;
-  double Kd_ = 2.6;
+  double Kp_ = 0.2607;
+  double Ki_ = 0.0000396;
+  double Kd_ = 2.6026;
 
   // initialize the PID controller
   pid.Init(Kp_, Ki_, Kd_);
 
   // initialize the Twiddle
-  twiddle.Init(0.2, Kp_, Ki_, Kd_);
+  twiddle.Init(0.01, Kp_, Ki_, Kd_);
 
   h.onMessage([&pid, &twiddle](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, 
                                uWS::OpCode opCode) {

@@ -27,7 +27,7 @@ void Twiddle::Init(double tol, double Kp, double Ki, double Kd) {
 
   this->first_run = true; // holds whether or not Twiddle is on its first full cycle
 	this->iteration = 0; // current iteration since the last reset
-  this->max_iteration = 1500; // max number of iterations to run for until checking the error
+  this->max_iteration = 2000; // max number of iterations to run for until checking the error
 
   // store the parameters and the parameter delta values
   this->dp = {Kp/10, Ki/10, Kd/10};
@@ -41,6 +41,7 @@ void Twiddle::Init(double tol, double Kp, double Ki, double Kd) {
 
   // not yet time to reset
   this->time_to_reset = false;
+  this->finished = false;
 }
 
 /**
@@ -114,11 +115,20 @@ void Twiddle::Update(double err) {
  * Returns whether or not the Twiddle algorithm is complete based on tolerance.
  */
 bool Twiddle::Finished() {
-	double sum = 0.0;
-	for (int i = 0; i < dp.size(); i++) {
-		sum += dp[i];
+	// if not finished, check to see if it's time to finish
+	if (!finished) {
+		double sum = 0.0;
+		for (int i = 0; i < dp.size(); i++) {
+			sum += dp[i];
+		}
+		if (sum < tol) {
+			finished = true;
+			std::cout << "***FINISHED CALIBRATING***" << std::endl;
+		}
 	}
-	return (sum < tol);
+
+	// return current value of finished
+	return finished;
 }
 
 /**
