@@ -12,7 +12,7 @@ The project code was compiled and used in tandem with a simulator from Udacity t
 
 **Project code:**
 
-* [Simulator interaction and steering calculation pipeline (`main.cpp`)](https://github.com/stephenvfg/pic-controller/blob/master/src/main.cpp)
+* [Simulator interaction and steering calculation pipeline (`main.cpp`)](https://github.com/stephenvfg/pid-controller/blob/master/src/main.cpp)
 * [PID controller logic (`PID.cpp`)](https://github.com/stephenvfg/pid-controller/blob/master/src/PID.cpp)
 * [Twiddle coefficient optimization object (`Twiddle.cpp`)](https://github.com/stephenvfg/pid-controller/blob/master/src/Twiddle.cpp)
 
