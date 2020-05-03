@@ -1,0 +1,746 @@
+Listening to port 4567
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.83683
+dP: 0.00633423 dI: 1.41623e-06 dD: 0.094561
+Best error so far: 163.652
+Error for above params: 163.652
+Connected!!!
+P: 0.196361 I: 4.24868e-05 D: 2.83683
+dP: 0.00633423 dI: 1.41623e-06 dD: 0.094561
+Error for above params: 190.251
+Connected!!!
+P: 0.183693 I: 4.24868e-05 D: 2.83683
+dP: 0.00633423 dI: 1.41623e-06 dD: 0.094561
+Error for above params: 184.556
+Connected!!!
+P: 0.190027 I: 4.3903e-05 D: 2.83683
+dP: 0.00570081 dI: 1.41623e-06 dD: 0.094561
+Error for above params: 176.089
+Connected!!!
+P: 0.190027 I: 4.10706e-05 D: 2.83683
+dP: 0.00570081 dI: 1.41623e-06 dD: 0.094561
+Error for above params: 240.712
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.93139
+dP: 0.00570081 dI: 1.2746e-06 dD: 0.094561
+Error for above params: 205.938
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.74227
+dP: 0.00570081 dI: 1.2746e-06 dD: 0.094561
+Error for above params: 187.232
+Connected!!!
+P: 0.195728 I: 4.24868e-05 D: 2.83683
+dP: 0.00570081 dI: 1.2746e-06 dD: 0.0851049
+Error for above params: 191.675
+Connected!!!
+P: 0.184326 I: 4.24868e-05 D: 2.83683
+dP: 0.00570081 dI: 1.2746e-06 dD: 0.0851049
+Error for above params: 184.955
+Connected!!!
+P: 0.190027 I: 4.37614e-05 D: 2.83683
+dP: 0.00513073 dI: 1.2746e-06 dD: 0.0851049
+Error for above params: 219.103
+Connected!!!
+P: 0.190027 I: 4.12122e-05 D: 2.83683
+dP: 0.00513073 dI: 1.2746e-06 dD: 0.0851049
+Error for above params: 224.863
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.92193
+dP: 0.00513073 dI: 1.14714e-06 dD: 0.0851049
+Error for above params: 213.65
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.75173
+dP: 0.00513073 dI: 1.14714e-06 dD: 0.0851049
+Error for above params: 215.89
+Connected!!!
+P: 0.195158 I: 4.24868e-05 D: 2.83683
+dP: 0.00513073 dI: 1.14714e-06 dD: 0.0765944
+Error for above params: 195.695
+Connected!!!
+P: 0.184896 I: 4.24868e-05 D: 2.83683
+dP: 0.00513073 dI: 1.14714e-06 dD: 0.0765944
+Error for above params: 233.475
+Connected!!!
+P: 0.190027 I: 4.36339e-05 D: 2.83683
+dP: 0.00461766 dI: 1.14714e-06 dD: 0.0765944
+Error for above params: 210.502
+Connected!!!
+P: 0.190027 I: 4.13397e-05 D: 2.83683
+dP: 0.00461766 dI: 1.14714e-06 dD: 0.0765944
+Error for above params: 181.313
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.91342
+dP: 0.00461766 dI: 1.03243e-06 dD: 0.0765944
+Error for above params: 198.246
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.76024
+dP: 0.00461766 dI: 1.03243e-06 dD: 0.0765944
+Error for above params: 215.481
+Connected!!!
+P: 0.194645 I: 4.24868e-05 D: 2.83683
+dP: 0.00461766 dI: 1.03243e-06 dD: 0.068935
+Error for above params: 236.305
+Connected!!!
+P: 0.185409 I: 4.24868e-05 D: 2.83683
+dP: 0.00461766 dI: 1.03243e-06 dD: 0.068935
+Error for above params: 239.776
+Connected!!!
+P: 0.190027 I: 4.35192e-05 D: 2.83683
+dP: 0.00415589 dI: 1.03243e-06 dD: 0.068935
+Error for above params: 183.869
+Connected!!!
+P: 0.190027 I: 4.14544e-05 D: 2.83683
+dP: 0.00415589 dI: 1.03243e-06 dD: 0.068935
+Error for above params: 210.522
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.90576
+dP: 0.00415589 dI: 9.29186e-07 dD: 0.068935
+Error for above params: 179.474
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.7679
+dP: 0.00415589 dI: 9.29186e-07 dD: 0.068935
+Error for above params: 188.891
+Connected!!!
+P: 0.194183 I: 4.24868e-05 D: 2.83683
+dP: 0.00415589 dI: 9.29186e-07 dD: 0.0620415
+Error for above params: 216.468
+Connected!!!
+P: 0.185871 I: 4.24868e-05 D: 2.83683
+dP: 0.00415589 dI: 9.29186e-07 dD: 0.0620415
+Error for above params: 227.997
+Connected!!!
+P: 0.190027 I: 4.3416e-05 D: 2.83683
+dP: 0.0037403 dI: 9.29186e-07 dD: 0.0620415
+Error for above params: 209.288
+Connected!!!
+P: 0.190027 I: 4.15576e-05 D: 2.83683
+dP: 0.0037403 dI: 9.29186e-07 dD: 0.0620415
+Error for above params: 234.678
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.89887
+dP: 0.0037403 dI: 8.36268e-07 dD: 0.0620415
+Error for above params: 223.401
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.77479
+dP: 0.0037403 dI: 8.36268e-07 dD: 0.0620415
+Error for above params: 216.874
+Connected!!!
+P: 0.193767 I: 4.24868e-05 D: 2.83683
+dP: 0.0037403 dI: 8.36268e-07 dD: 0.0558373
+Error for above params: 234.27
+Connected!!!
+P: 0.186287 I: 4.24868e-05 D: 2.83683
+dP: 0.0037403 dI: 8.36268e-07 dD: 0.0558373
+Error for above params: 200.874
+Connected!!!
+P: 0.190027 I: 4.33231e-05 D: 2.83683
+dP: 0.00336627 dI: 8.36268e-07 dD: 0.0558373
+Error for above params: 225.409
+Connected!!!
+P: 0.190027 I: 4.16505e-05 D: 2.83683
+dP: 0.00336627 dI: 8.36268e-07 dD: 0.0558373
+Error for above params: 214.252
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.89267
+dP: 0.00336627 dI: 7.52641e-07 dD: 0.0558373
+Error for above params: 220.494
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.78099
+dP: 0.00336627 dI: 7.52641e-07 dD: 0.0558373
+Error for above params: 200.745
+Connected!!!
+P: 0.193393 I: 4.24868e-05 D: 2.83683
+dP: 0.00336627 dI: 7.52641e-07 dD: 0.0502536
+Error for above params: 197.095
+Connected!!!
+P: 0.186661 I: 4.24868e-05 D: 2.83683
+dP: 0.00336627 dI: 7.52641e-07 dD: 0.0502536
+Error for above params: 229.033
+Connected!!!
+P: 0.190027 I: 4.32394e-05 D: 2.83683
+dP: 0.00302964 dI: 7.52641e-07 dD: 0.0502536
+Error for above params: 221.501
+Connected!!!
+P: 0.190027 I: 4.17342e-05 D: 2.83683
+dP: 0.00302964 dI: 7.52641e-07 dD: 0.0502536
+Error for above params: 215.459
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.88708
+dP: 0.00302964 dI: 6.77377e-07 dD: 0.0502536
+Error for above params: 203.587
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.78658
+dP: 0.00302964 dI: 6.77377e-07 dD: 0.0502536
+Error for above params: 204.157
+Connected!!!
+P: 0.193057 I: 4.24868e-05 D: 2.83683
+dP: 0.00302964 dI: 6.77377e-07 dD: 0.0452282
+Error for above params: 229.198
+Connected!!!
+P: 0.186997 I: 4.24868e-05 D: 2.83683
+dP: 0.00302964 dI: 6.77377e-07 dD: 0.0452282
+Error for above params: 196.493
+Connected!!!
+P: 0.190027 I: 4.31642e-05 D: 2.83683
+dP: 0.00272668 dI: 6.77377e-07 dD: 0.0452282
+Error for above params: 237.415
+Connected!!!
+P: 0.190027 I: 4.18094e-05 D: 2.83683
+dP: 0.00272668 dI: 6.77377e-07 dD: 0.0452282
+Error for above params: 226.64
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.88206
+dP: 0.00272668 dI: 6.09639e-07 dD: 0.0452282
+Error for above params: 193.213
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.7916
+dP: 0.00272668 dI: 6.09639e-07 dD: 0.0452282
+Error for above params: 215.345
+Connected!!!
+P: 0.192754 I: 4.24868e-05 D: 2.83683
+dP: 0.00272668 dI: 6.09639e-07 dD: 0.0407054
+Error for above params: 214.916
+Connected!!!
+P: 0.1873 I: 4.24868e-05 D: 2.83683
+dP: 0.00272668 dI: 6.09639e-07 dD: 0.0407054
+Error for above params: 235.026
+Connected!!!
+P: 0.190027 I: 4.30964e-05 D: 2.83683
+dP: 0.00245401 dI: 6.09639e-07 dD: 0.0407054
+Error for above params: 235.786
+Connected!!!
+P: 0.190027 I: 4.18772e-05 D: 2.83683
+dP: 0.00245401 dI: 6.09639e-07 dD: 0.0407054
+Error for above params: 238.277
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.87754
+dP: 0.00245401 dI: 5.48675e-07 dD: 0.0407054
+Error for above params: 212.148
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.79612
+dP: 0.00245401 dI: 5.48675e-07 dD: 0.0407054
+Error for above params: 226.163
+Connected!!!
+P: 0.192481 I: 4.24868e-05 D: 2.83683
+dP: 0.00245401 dI: 5.48675e-07 dD: 0.0366349
+Error for above params: 208.167
+Connected!!!
+P: 0.187573 I: 4.24868e-05 D: 2.83683
+dP: 0.00245401 dI: 5.48675e-07 dD: 0.0366349
+Error for above params: 232.667
+Connected!!!
+P: 0.190027 I: 4.30355e-05 D: 2.83683
+dP: 0.00220861 dI: 5.48675e-07 dD: 0.0366349
+Error for above params: 176.845
+Connected!!!
+P: 0.190027 I: 4.19381e-05 D: 2.83683
+dP: 0.00220861 dI: 5.48675e-07 dD: 0.0366349
+Error for above params: 173.486
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.87346
+dP: 0.00220861 dI: 4.93808e-07 dD: 0.0366349
+Error for above params: 208.825
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.8002
+dP: 0.00220861 dI: 4.93808e-07 dD: 0.0366349
+Error for above params: 215.304
+Connected!!!
+P: 0.192236 I: 4.24868e-05 D: 2.83683
+dP: 0.00220861 dI: 4.93808e-07 dD: 0.0329714
+Error for above params: 181.856
+Connected!!!
+P: 0.187818 I: 4.24868e-05 D: 2.83683
+dP: 0.00220861 dI: 4.93808e-07 dD: 0.0329714
+Error for above params: 175.706
+Connected!!!
+P: 0.190027 I: 4.29806e-05 D: 2.83683
+dP: 0.00198775 dI: 4.93808e-07 dD: 0.0329714
+Error for above params: 213.383
+Connected!!!
+P: 0.190027 I: 4.1993e-05 D: 2.83683
+dP: 0.00198775 dI: 4.93808e-07 dD: 0.0329714
+Error for above params: 181.705
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.8698
+dP: 0.00198775 dI: 4.44427e-07 dD: 0.0329714
+Error for above params: 240.433
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.80386
+dP: 0.00198775 dI: 4.44427e-07 dD: 0.0329714
+Error for above params: 233.865
+Connected!!!
+P: 0.192015 I: 4.24868e-05 D: 2.83683
+dP: 0.00198775 dI: 4.44427e-07 dD: 0.0296742
+Error for above params: 208.426
+Connected!!!
+P: 0.188039 I: 4.24868e-05 D: 2.83683
+dP: 0.00198775 dI: 4.44427e-07 dD: 0.0296742
+Error for above params: 187.592
+Connected!!!
+P: 0.190027 I: 4.29312e-05 D: 2.83683
+dP: 0.00178897 dI: 4.44427e-07 dD: 0.0296742
+Error for above params: 204.133
+Connected!!!
+P: 0.190027 I: 4.20424e-05 D: 2.83683
+dP: 0.00178897 dI: 4.44427e-07 dD: 0.0296742
+Error for above params: 193.452
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.8665
+dP: 0.00178897 dI: 3.99984e-07 dD: 0.0296742
+*********** New best error for above params: 161.444
+Error for above params: 161.444
+Connected!!!
+P: 0.190027 I: 4.24868e-05 D: 2.8665
+dP: 0.00178897 dI: 3.99984e-07 dD: 0.0326417
+Error for above params: 164.22
+Connected!!!
+P: 0.186449 I: 4.24868e-05 D: 2.8665
+dP: 0.00178897 dI: 3.99984e-07 dD: 0.0326417
+Error for above params: 189.256
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.8665
+dP: 0.00161008 dI: 3.99984e-07 dD: 0.0326417
+*********** New best error for above params: 151.941
+Error for above params: 151.941
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.8665
+dP: 0.00161008 dI: 4.39983e-07 dD: 0.0326417
+Error for above params: 182.319
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.80122
+dP: 0.00161008 dI: 4.39983e-07 dD: 0.0326417
+Error for above params: 218.661
+Connected!!!
+P: 0.189848 I: 4.28868e-05 D: 2.83386
+dP: 0.00161008 dI: 4.39983e-07 dD: 0.0293775
+Error for above params: 210.373
+Connected!!!
+P: 0.186628 I: 4.28868e-05 D: 2.83386
+dP: 0.00161008 dI: 4.39983e-07 dD: 0.0293775
+Error for above params: 203.049
+Connected!!!
+P: 0.188238 I: 4.33268e-05 D: 2.83386
+dP: 0.00144907 dI: 4.39983e-07 dD: 0.0293775
+Error for above params: 178.219
+Connected!!!
+P: 0.188238 I: 4.24468e-05 D: 2.83386
+dP: 0.00144907 dI: 4.39983e-07 dD: 0.0293775
+Error for above params: 232.862
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.86324
+dP: 0.00144907 dI: 3.95984e-07 dD: 0.0293775
+Error for above params: 205.412
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.80449
+dP: 0.00144907 dI: 3.95984e-07 dD: 0.0293775
+Error for above params: 194.982
+Connected!!!
+P: 0.189687 I: 4.28868e-05 D: 2.83386
+dP: 0.00144907 dI: 3.95984e-07 dD: 0.0264398
+Error for above params: 219.456
+Connected!!!
+P: 0.186789 I: 4.28868e-05 D: 2.83386
+dP: 0.00144907 dI: 3.95984e-07 dD: 0.0264398
+Error for above params: 241.71
+Connected!!!
+P: 0.188238 I: 4.32828e-05 D: 2.83386
+dP: 0.00130416 dI: 3.95984e-07 dD: 0.0264398
+Error for above params: 249.922
+Connected!!!
+P: 0.188238 I: 4.24908e-05 D: 2.83386
+dP: 0.00130416 dI: 3.95984e-07 dD: 0.0264398
+Error for above params: 223.548
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.8603
+dP: 0.00130416 dI: 3.56386e-07 dD: 0.0264398
+Error for above params: 210.613
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.80742
+dP: 0.00130416 dI: 3.56386e-07 dD: 0.0264398
+Error for above params: 239.844
+Connected!!!
+P: 0.189542 I: 4.28868e-05 D: 2.83386
+dP: 0.00130416 dI: 3.56386e-07 dD: 0.0237958
+Error for above params: 208.212
+Connected!!!
+P: 0.186934 I: 4.28868e-05 D: 2.83386
+dP: 0.00130416 dI: 3.56386e-07 dD: 0.0237958
+Error for above params: 243.477
+Connected!!!
+P: 0.188238 I: 4.32432e-05 D: 2.83386
+dP: 0.00117375 dI: 3.56386e-07 dD: 0.0237958
+Error for above params: 236.982
+Connected!!!
+P: 0.188238 I: 4.25304e-05 D: 2.83386
+dP: 0.00117375 dI: 3.56386e-07 dD: 0.0237958
+Error for above params: 197.068
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.85766
+dP: 0.00117375 dI: 3.20747e-07 dD: 0.0237958
+Error for above params: 180.707
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.81007
+dP: 0.00117375 dI: 3.20747e-07 dD: 0.0237958
+Error for above params: 216.727
+Connected!!!
+P: 0.189412 I: 4.28868e-05 D: 2.83386
+dP: 0.00117375 dI: 3.20747e-07 dD: 0.0214162
+Error for above params: 173.083
+Connected!!!
+P: 0.187064 I: 4.28868e-05 D: 2.83386
+dP: 0.00117375 dI: 3.20747e-07 dD: 0.0214162
+Error for above params: 178.489
+Connected!!!
+P: 0.188238 I: 4.32075e-05 D: 2.83386
+dP: 0.00105637 dI: 3.20747e-07 dD: 0.0214162
+Error for above params: 182.401
+Connected!!!
+P: 0.188238 I: 4.2566e-05 D: 2.83386
+dP: 0.00105637 dI: 3.20747e-07 dD: 0.0214162
+Error for above params: 183.012
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.85528
+dP: 0.00105637 dI: 2.88673e-07 dD: 0.0214162
+Error for above params: 205.056
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.81245
+dP: 0.00105637 dI: 2.88673e-07 dD: 0.0214162
+Error for above params: 169.724
+Connected!!!
+P: 0.189294 I: 4.28868e-05 D: 2.83386
+dP: 0.00105637 dI: 2.88673e-07 dD: 0.0192746
+Error for above params: 270.337
+Connected!!!
+P: 0.187182 I: 4.28868e-05 D: 2.83386
+dP: 0.00105637 dI: 2.88673e-07 dD: 0.0192746
+Error for above params: 176.812
+Connected!!!
+P: 0.188238 I: 4.31755e-05 D: 2.83386
+dP: 0.000950734 dI: 2.88673e-07 dD: 0.0192746
+Error for above params: 163.981
+Connected!!!
+P: 0.188238 I: 4.25981e-05 D: 2.83386
+dP: 0.000950734 dI: 2.88673e-07 dD: 0.0192746
+Error for above params: 181.89
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.85314
+dP: 0.000950734 dI: 2.59805e-07 dD: 0.0192746
+Error for above params: 223.109
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.81459
+dP: 0.000950734 dI: 2.59805e-07 dD: 0.0192746
+Error for above params: 232.796
+Connected!!!
+P: 0.189189 I: 4.28868e-05 D: 2.83386
+dP: 0.000950734 dI: 2.59805e-07 dD: 0.0173471
+Error for above params: 176.96
+Connected!!!
+P: 0.187287 I: 4.28868e-05 D: 2.83386
+dP: 0.000950734 dI: 2.59805e-07 dD: 0.0173471
+Error for above params: 206.192
+Connected!!!
+P: 0.188238 I: 4.31466e-05 D: 2.83386
+dP: 0.000855661 dI: 2.59805e-07 dD: 0.0173471
+Error for above params: 214.914
+Connected!!!
+P: 0.188238 I: 4.2627e-05 D: 2.83386
+dP: 0.000855661 dI: 2.59805e-07 dD: 0.0173471
+Error for above params: 230.467
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.85121
+dP: 0.000855661 dI: 2.33825e-07 dD: 0.0173471
+Error for above params: 214.41
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.81652
+dP: 0.000855661 dI: 2.33825e-07 dD: 0.0173471
+Error for above params: 197.235
+Connected!!!
+P: 0.189094 I: 4.28868e-05 D: 2.83386
+dP: 0.000855661 dI: 2.33825e-07 dD: 0.0156124
+Error for above params: 216.769
+Connected!!!
+P: 0.187382 I: 4.28868e-05 D: 2.83386
+dP: 0.000855661 dI: 2.33825e-07 dD: 0.0156124
+Error for above params: 188.748
+Connected!!!
+P: 0.188238 I: 4.31206e-05 D: 2.83386
+dP: 0.000770095 dI: 2.33825e-07 dD: 0.0156124
+Error for above params: 206.411
+Connected!!!
+P: 0.188238 I: 4.2653e-05 D: 2.83386
+dP: 0.000770095 dI: 2.33825e-07 dD: 0.0156124
+Error for above params: 288.406
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.84947
+dP: 0.000770095 dI: 2.10442e-07 dD: 0.0156124
+Error for above params: 201.234
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.81825
+dP: 0.000770095 dI: 2.10442e-07 dD: 0.0156124
+Error for above params: 215.812
+Connected!!!
+P: 0.189008 I: 4.28868e-05 D: 2.83386
+dP: 0.000770095 dI: 2.10442e-07 dD: 0.0140512
+Error for above params: 191.239
+Connected!!!
+P: 0.187468 I: 4.28868e-05 D: 2.83386
+dP: 0.000770095 dI: 2.10442e-07 dD: 0.0140512
+Error for above params: 199.677
+Connected!!!
+P: 0.188238 I: 4.30972e-05 D: 2.83386
+dP: 0.000693085 dI: 2.10442e-07 dD: 0.0140512
+Error for above params: 194.515
+Connected!!!
+P: 0.188238 I: 4.26763e-05 D: 2.83386
+dP: 0.000693085 dI: 2.10442e-07 dD: 0.0140512
+Error for above params: 202.973
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.84791
+dP: 0.000693085 dI: 1.89398e-07 dD: 0.0140512
+Error for above params: 189.788
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.81981
+dP: 0.000693085 dI: 1.89398e-07 dD: 0.0140512
+Error for above params: 181.032
+Connected!!!
+P: 0.188931 I: 4.28868e-05 D: 2.83386
+dP: 0.000693085 dI: 1.89398e-07 dD: 0.0126461
+Error for above params: 197.475
+Connected!!!
+P: 0.187545 I: 4.28868e-05 D: 2.83386
+dP: 0.000693085 dI: 1.89398e-07 dD: 0.0126461
+Error for above params: 202.945
+Connected!!!
+P: 0.188238 I: 4.30762e-05 D: 2.83386
+dP: 0.000623777 dI: 1.89398e-07 dD: 0.0126461
+Error for above params: 228.975
+Connected!!!
+P: 0.188238 I: 4.26974e-05 D: 2.83386
+dP: 0.000623777 dI: 1.89398e-07 dD: 0.0126461
+Error for above params: 228.175
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.84651
+dP: 0.000623777 dI: 1.70458e-07 dD: 0.0126461
+Error for above params: 236.814
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.82122
+dP: 0.000623777 dI: 1.70458e-07 dD: 0.0126461
+Error for above params: 198.036
+Connected!!!
+P: 0.188862 I: 4.28868e-05 D: 2.83386
+dP: 0.000623777 dI: 1.70458e-07 dD: 0.0113814
+Error for above params: 232.218
+Connected!!!
+P: 0.187614 I: 4.28868e-05 D: 2.83386
+dP: 0.000623777 dI: 1.70458e-07 dD: 0.0113814
+Error for above params: 219.266
+Connected!!!
+P: 0.188238 I: 4.30572e-05 D: 2.83386
+dP: 0.000561399 dI: 1.70458e-07 dD: 0.0113814
+Error for above params: 203.154
+Connected!!!
+P: 0.188238 I: 4.27163e-05 D: 2.83386
+dP: 0.000561399 dI: 1.70458e-07 dD: 0.0113814
+Error for above params: 199.981
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.84524
+dP: 0.000561399 dI: 1.53412e-07 dD: 0.0113814
+Error for above params: 242.184
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.82248
+dP: 0.000561399 dI: 1.53412e-07 dD: 0.0113814
+Error for above params: 193.895
+Connected!!!
+P: 0.188799 I: 4.28868e-05 D: 2.83386
+dP: 0.000561399 dI: 1.53412e-07 dD: 0.0102433
+Error for above params: 182.849
+Connected!!!
+P: 0.187677 I: 4.28868e-05 D: 2.83386
+dP: 0.000561399 dI: 1.53412e-07 dD: 0.0102433
+Error for above params: 182.397
+Connected!!!
+P: 0.188238 I: 4.30402e-05 D: 2.83386
+dP: 0.000505259 dI: 1.53412e-07 dD: 0.0102433
+Error for above params: 259.347
+Connected!!!
+P: 0.188238 I: 4.27334e-05 D: 2.83386
+dP: 0.000505259 dI: 1.53412e-07 dD: 0.0102433
+Error for above params: 187.703
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.84411
+dP: 0.000505259 dI: 1.38071e-07 dD: 0.0102433
+Error for above params: 197.58
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.82362
+dP: 0.000505259 dI: 1.38071e-07 dD: 0.0102433
+Error for above params: 188.502
+Connected!!!
+P: 0.188743 I: 4.28868e-05 D: 2.83386
+dP: 0.000505259 dI: 1.38071e-07 dD: 0.00921897
+Error for above params: 199.237
+Connected!!!
+P: 0.187733 I: 4.28868e-05 D: 2.83386
+dP: 0.000505259 dI: 1.38071e-07 dD: 0.00921897
+Error for above params: 182.446
+Connected!!!
+P: 0.188238 I: 4.30249e-05 D: 2.83386
+dP: 0.000454733 dI: 1.38071e-07 dD: 0.00921897
+Error for above params: 203.109
+Connected!!!
+P: 0.188238 I: 4.27487e-05 D: 2.83386
+dP: 0.000454733 dI: 1.38071e-07 dD: 0.00921897
+Error for above params: 179.439
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.84308
+dP: 0.000454733 dI: 1.24264e-07 dD: 0.00921897
+Error for above params: 182.729
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.82464
+dP: 0.000454733 dI: 1.24264e-07 dD: 0.00921897
+Error for above params: 180.733
+Connected!!!
+P: 0.188693 I: 4.28868e-05 D: 2.83386
+dP: 0.000454733 dI: 1.24264e-07 dD: 0.00829707
+Error for above params: 188.755
+Connected!!!
+P: 0.187783 I: 4.28868e-05 D: 2.83386
+dP: 0.000454733 dI: 1.24264e-07 dD: 0.00829707
+Error for above params: 174.182
+Connected!!!
+P: 0.188238 I: 4.3011e-05 D: 2.83386
+dP: 0.00040926 dI: 1.24264e-07 dD: 0.00829707
+Error for above params: 176.332
+Connected!!!
+P: 0.188238 I: 4.27625e-05 D: 2.83386
+dP: 0.00040926 dI: 1.24264e-07 dD: 0.00829707
+Error for above params: 176.013
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.84216
+dP: 0.00040926 dI: 1.11838e-07 dD: 0.00829707
+Error for above params: 240.911
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.82557
+dP: 0.00040926 dI: 1.11838e-07 dD: 0.00829707
+Error for above params: 182.907
+Connected!!!
+P: 0.188647 I: 4.28868e-05 D: 2.83386
+dP: 0.00040926 dI: 1.11838e-07 dD: 0.00746737
+Error for above params: 187.722
+Connected!!!
+P: 0.187829 I: 4.28868e-05 D: 2.83386
+dP: 0.00040926 dI: 1.11838e-07 dD: 0.00746737
+Error for above params: 222.903
+Connected!!!
+P: 0.188238 I: 4.29986e-05 D: 2.83386
+dP: 0.000368334 dI: 1.11838e-07 dD: 0.00746737
+Error for above params: 203.616
+Connected!!!
+P: 0.188238 I: 4.27749e-05 D: 2.83386
+dP: 0.000368334 dI: 1.11838e-07 dD: 0.00746737
+Error for above params: 183.812
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.84133
+dP: 0.000368334 dI: 1.00654e-07 dD: 0.00746737
+Error for above params: 178.405
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.8264
+dP: 0.000368334 dI: 1.00654e-07 dD: 0.00746737
+Error for above params: 196.87
+Connected!!!
+P: 0.188606 I: 4.28868e-05 D: 2.83386
+dP: 0.000368334 dI: 1.00654e-07 dD: 0.00672063
+Error for above params: 176.945
+Connected!!!
+P: 0.18787 I: 4.28868e-05 D: 2.83386
+dP: 0.000368334 dI: 1.00654e-07 dD: 0.00672063
+Error for above params: 184.025
+Connected!!!
+P: 0.188238 I: 4.29874e-05 D: 2.83386
+dP: 0.000331501 dI: 1.00654e-07 dD: 0.00672063
+Error for above params: 171.704
+Connected!!!
+P: 0.188238 I: 4.27861e-05 D: 2.83386
+dP: 0.000331501 dI: 1.00654e-07 dD: 0.00672063
+Error for above params: 169.943
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.84058
+dP: 0.000331501 dI: 9.05885e-08 dD: 0.00672063
+Error for above params: 217.454
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.82714
+dP: 0.000331501 dI: 9.05885e-08 dD: 0.00672063
+Error for above params: 184.244
+Connected!!!
+P: 0.18857 I: 4.28868e-05 D: 2.83386
+dP: 0.000331501 dI: 9.05885e-08 dD: 0.00604857
+Error for above params: 172.541
+Connected!!!
+P: 0.187907 I: 4.28868e-05 D: 2.83386
+dP: 0.000331501 dI: 9.05885e-08 dD: 0.00604857
+Error for above params: 195.405
+Connected!!!
+P: 0.188238 I: 4.29774e-05 D: 2.83386
+dP: 0.000298351 dI: 9.05885e-08 dD: 0.00604857
+Error for above params: 186.056
+Connected!!!
+P: 0.188238 I: 4.27962e-05 D: 2.83386
+dP: 0.000298351 dI: 9.05885e-08 dD: 0.00604857
+Error for above params: 196.021
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.83991
+dP: 0.000298351 dI: 8.15297e-08 dD: 0.00604857
+Error for above params: 175.148
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.82781
+dP: 0.000298351 dI: 8.15297e-08 dD: 0.00604857
+Error for above params: 170.924
+Connected!!!
+P: 0.188536 I: 4.28868e-05 D: 2.83386
+dP: 0.000298351 dI: 8.15297e-08 dD: 0.00544371
+Error for above params: 176.83
+Connected!!!
+P: 0.18794 I: 4.28868e-05 D: 2.83386
+dP: 0.000298351 dI: 8.15297e-08 dD: 0.00544371
+Error for above params: 174.55
+Connected!!!
+P: 0.188238 I: 4.29683e-05 D: 2.83386
+dP: 0.000268515 dI: 8.15297e-08 dD: 0.00544371
+Error for above params: 186.841
+Connected!!!
+P: 0.188238 I: 4.28053e-05 D: 2.83386
+dP: 0.000268515 dI: 8.15297e-08 dD: 0.00544371
+Error for above params: 169.961
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.83931
+dP: 0.000268515 dI: 7.33767e-08 dD: 0.00544371
+Error for above params: 171.117
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.82842
+dP: 0.000268515 dI: 7.33767e-08 dD: 0.00544371
+Error for above params: 186.203
+Connected!!!
+P: 0.188507 I: 4.28868e-05 D: 2.83386
+dP: 0.000268515 dI: 7.33767e-08 dD: 0.00489934
+Error for above params: 177.598
+Connected!!!
+P: 0.18797 I: 4.28868e-05 D: 2.83386
+dP: 0.000268515 dI: 7.33767e-08 dD: 0.00489934
+Error for above params: 170.427
+Connected!!!
+P: 0.188238 I: 4.29602e-05 D: 2.83386
+dP: 0.000241664 dI: 7.33767e-08 dD: 0.00489934
+Error for above params: 168.233
+Connected!!!
+P: 0.188238 I: 4.28134e-05 D: 2.83386
+dP: 0.000241664 dI: 7.33767e-08 dD: 0.00489934
+Error for above params: 179.494
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.83876
+dP: 0.000241664 dI: 6.6039e-08 dD: 0.00489934
+Error for above params: 180.141
+Connected!!!
+P: 0.188238 I: 4.28868e-05 D: 2.82896
+dP: 0.000241664 dI: 6.6039e-08 dD: 0.00489934
+Error for above params: 212.934
+***FINISHED CALIBRATING***
+Connected!!!

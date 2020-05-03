@@ -38,18 +38,25 @@ int main() {
   Twiddle twiddle;
 
   // set the initial PID coefficients
-  double Kp_ = 0.2607;
-  double Ki_ = 0.0000396;
-  double Kd_ = 2.6026;
+  double Kp_ = 0.188238;
+  double Ki_ = 0.0000428868;
+  double Kd_ = 2.8665;
 
   // initialize the PID controller
   pid.Init(Kp_, Ki_, Kd_);
 
   // initialize the Twiddle
-  twiddle.Init(0.01, Kp_, Ki_, Kd_);
+  double tol = 0.005;
+  twiddle.Init(tol, Kp_, Ki_, Kd_);
 
-  h.onMessage([&pid, &twiddle](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, 
-                               uWS::OpCode opCode) {
+  // use this bool to control whether or not we want to iterate through Twiddle prior to racing the track
+  bool do_twiddle = false; // set to TRUE to do twiddle
+
+  // if this value is true then display output showing PID values to help debug
+  bool debug_mode = false; // CHANGE TO TRUE TO DEBUG
+
+  h.onMessage([&pid, &twiddle, &do_twiddle, &debug_mode]
+              (uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
     // "42" at the start of the message means there's a websocket message event.
     // The 4 signifies a websocket message
     // The 2 signifies a websocket event
@@ -64,16 +71,19 @@ int main() {
         if (event == "telemetry") {
           // j[1] is the data JSON object
           double cte = std::stod(j[1]["cte"].get<string>());
-          double speed = std::stod(j[1]["speed"].get<string>());
-          double angle = std::stod(j[1]["steering_angle"].get<string>());
+          // Not using speed or angle for this implementation. They are available here if needed.
+          //double speed = std::stod(j[1]["speed"].get<string>());
+          //double angle = std::stod(j[1]["steering_angle"].get<string>());
 
           // update the PID error values and then use those to determine the steering value
           pid.UpdateError(cte);
           double error = pid.TotalError();
-          double sq_error = error*error;
 
           // as long as twiddle isn't optimized, run through twiddle
-          if (!twiddle.Finished()) {
+          if (do_twiddle && !twiddle.Finished()) {
+            // use the squared error for twiddle optimization to work around negatives
+            double sq_error = error*error;
+            
             // move the car
             // if twiddle reaches the end of a cycle, it will run through an optimization step
             twiddle.Run(sq_error);
@@ -92,21 +102,22 @@ int main() {
 
           // use the PID error to determine the steering value
           double steer_value = error;
-          /**
-           * TODO: Calculate steering value here, remember the steering value is
-           *   [-1, 1].
-           * NOTE: Feel free to play around with the throttle and speed.
-           *   Maybe use another PID controller to control the speed!
-           */
+
+          // confine the steer_value between the accpetable range of [-1, 1]
+          if (steer_value < -1.0) { steer_value = -1.0; }
+          else if (steer_value > 1.0) { steer_value = 1.0; }
           
-          // DEBUG
-          //std::cout << "CTE: " << cte << " Steering Value: " << steer_value << std::endl;
+          if (debug_mode) {
+            std::cout << "CTE: " << cte << " Steering Value: " << steer_value << std::endl;
+          }
 
           json msgJson;
           msgJson["steering_angle"] = steer_value;
           msgJson["throttle"] = 0.3;
           auto msg = "42[\"steer\"," + msgJson.dump() + "]";
-          //std::cout << msg << std::endl;
+          if (debug_mode) {
+            std::cout << msg << std::endl;
+          }
           ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
         }  // end "telemetry" if
       } else {

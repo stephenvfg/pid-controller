@@ -27,12 +27,13 @@ void Twiddle::Init(double tol, double Kp, double Ki, double Kd) {
 
   this->first_run = true; // holds whether or not Twiddle is on its first full cycle
 	this->iteration = 0; // current iteration since the last reset
-  this->max_iteration = 2000; // max number of iterations to run for until checking the error
+  this->max_iteration = 10000; // max number of iterations to run for until checking the error
 
   // store the parameters and the parameter delta values
-  this->dp = {Kp/10, Ki/10, Kd/10};
+  this->dp = {Kp/30, Ki/30, Kd/30};
 
   // set maximum error value
+  this->total_err = 0.0;
   this->best_err = numeric_limits<double>::max();
 
   // values we will use to scale dp up or down
@@ -42,6 +43,9 @@ void Twiddle::Init(double tol, double Kp, double Ki, double Kd) {
   // not yet time to reset
   this->time_to_reset = false;
   this->finished = false;
+
+  // if this value is true then display output showing Twiddle values to help debug
+  this->twiddle_debug_mode = false; // CHANGE TO TRUE TO DEBUG
 }
 
 /**
@@ -53,50 +57,57 @@ void Twiddle::Run(double err) {
 		time_to_reset = false;
 	}
 
+	total_err += err;
 	iteration += 1;
 
 	if (iteration >= max_iteration) {
-		this->Update(err);
+		if (twiddle_debug_mode) {
+  		std::cout << "P: " << p[0] << " I: " << p[1] << " D: " << p[2] << std::endl;
+  		std::cout << "dP: " << dp[0] << " dI: " << dp[1] << " dD: " << dp[2] << std::endl;
+  	}
+		this->Update();
 	}
 }
 
 /**
  * Updates error values based on the last run.
- * @param (err) error value of the current iteration
  */
-void Twiddle::Update(double err) {
+void Twiddle::Update() {
 	// if it's the first cycle, simply take the current error as the best error
 	if (first_run) {
 		// capture the current error and then update one coefficient to compare in the next cycle
-		best_err = err;
+		best_err = total_err;
 		p[param] += dp[param];
 		phase = 0;
 		first_run = false;
-  	// DEBUG
-		std::cout << "Best error so far: " << best_err << std::endl;
+		if (twiddle_debug_mode) {
+			std::cout << "Best error so far: " << best_err << std::endl;
+		}
 	} 
 	// adjust the coefficients and modifiers according to the phase
 	else if (phase == 0) {
-  	if (err < best_err) {
-  		best_err = err;
+  	if (total_err < best_err) {
+  		best_err = total_err;
   		dp[param] *= scale_up;
   		param = (param+1)%p.size();
-  		// DEBUG
-  		std::cout << "New best error for below params: " << best_err << std::endl;
+			if (twiddle_debug_mode) {
+  			std::cout << "*********** New best error for above params: " << best_err << std::endl;
+  		}
   	} else {
   		p[param] -= 2.0*dp[param];
 			phase = 1;
   	}
   } else if (phase == 1) {
-  	if (err < best_err) {
-  		best_err = err;
+  	if (total_err < best_err) {
+  		best_err = total_err;
   		dp[param] *= scale_up;	
   		// prepare for next cycle
 			param = (param+1)%p.size();
 			p[param] += dp[param];
 			phase = 0;
-  		// DEBUG
-  		std::cout << "New best error for below params: " << best_err << std::endl;
+			if (twiddle_debug_mode) {
+  			std::cout << "*********** New best error for above params: " << best_err << std::endl;
+  		}
   	} else {
   		p[param] += dp[param];
   		dp[param] *= scale_down;
@@ -106,8 +117,9 @@ void Twiddle::Update(double err) {
 			phase = 0;
   	}
   }
-  // DEBUG
-  std::cout << "Error for below params: " << err << std::endl;
+	if (twiddle_debug_mode) {
+  	std::cout << "Error for above params: " << total_err << std::endl;
+  }
 	this->Reset();
 }
 
@@ -136,11 +148,8 @@ bool Twiddle::Finished() {
  */
 void Twiddle::Reset() {
 	iteration = 0;
+	total_err = 0.0;
 	time_to_reset = true;
-
-  // DEBUG
-  std::cout << "P: " << p[0] << " I: " << p[1] << " D: " << p[2] << std::endl;
-  std::cout << "dP: " << dp[0] << " dI: " << dp[1] << " dD: " << dp[2] << std::endl;
 }
 
 /**

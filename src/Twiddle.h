@@ -36,9 +36,8 @@ class Twiddle {
 
   /**
    * Updates error values based on the last run.
-   * @param (err) error value of the current iteration
    */
-  void Update(double err);
+  void Update();
 
   /**
    * Returns whether or not the Twiddle algorithm is complete based on tolerance.
@@ -74,7 +73,8 @@ class Twiddle {
   vector<double> p;
   vector<double> dp;
 
-  // best error value seen so far
+  // store error values seen so far
+  double total_err;
   double best_err;
 
   // values we will use to scale dp up or down
@@ -86,6 +86,9 @@ class Twiddle {
 
   // stores when Twiddle is done calibrating
   bool finished;
+
+  // if this value is true then display output showing Twiddle values to help debug
+  bool twiddle_debug_mode;
 };
 
 #endif  // TWIDDLE_H
