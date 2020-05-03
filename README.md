@@ -62,4 +62,4 @@ Since Twiddle runs until the delta values shrink below the defined threshold, it
 
 | Sum of the `dp` values at each cycle |
 | ------------------------------------ |
-| <img src="https://github.com/stephenvfg/pid-controller/blob/master/data/sum.png" width="300px"> |
+| <img src="https://github.com/stephenvfg/pid-controller/blob/master/data/sum.png" width="500px"> |
